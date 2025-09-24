@@ -49,18 +49,3 @@ Además, la aplicación incluye:
 - **CSV Parsing**: Para lectura y procesamiento de los datos en tiempo real.
 
 ---
-
-## ✅ Requisitos
-
-- Android Studio (versión recomendada: +2022.3)
-- API Key de Google Maps
-- Conexión a internet para cargar el CSV dinámicamente
-
----
-
-## ⚙️ Instalación
-
-1. Clona el repositorio:
-
-```bash
-git clone https://github.com/tuusuario/valenbisi-app.git
