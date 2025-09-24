@@ -1,52 +1,66 @@
-🚲 Proyecto ValenBisi - Aplicación Android
-Descripción
+# 🚲 Proyecto ValenBisi - Aplicación Android
 
-Este proyecto consiste en el desarrollo de una aplicación Android que permite visualizar en tiempo real la disponibilidad de bicicletas en los puntos de ValenBisi, el sistema de bicicletas públicas de la ciudad de Valencia. Utilizando los datos proporcionados por el dataset disponible en la plataforma OpenDataSoft de Valencia, la aplicación muestra información relevante sobre:
+## 📌 Descripción
 
-Dirección de la estación
+Este proyecto consiste en el desarrollo de una aplicación Android que permite visualizar en tiempo real la **disponibilidad de bicicletas** en los puntos de **ValenBisi**, el sistema de bicicletas públicas de la ciudad de Valencia. Utilizando los datos proporcionados por el **dataset** disponible en la plataforma **OpenDataSoft** de Valencia, la aplicación muestra información relevante sobre:
 
-Bicicletas disponibles
-
-Espacios libres
+- 📍 **Dirección de la estación**
+- 🚲 **Bicicletas disponibles**
+- 🅿️ **Espacios libres**
 
 Además, la aplicación incluye:
 
-Un mapa interactivo que muestra la ubicación de las estaciones de ValenBisi.
+- 🗺️ Un **mapa interactivo** con la ubicación de cada estación.
+- 🎨 **Colores dinámicos** según disponibilidad.
+- 🔄 **Carga dinámica** del CSV con los datos en tiempo real.
 
-Colores dinámicos para indicar la disponibilidad de bicicletas en cada estación.
+---
 
-Carga dinámica de los datos desde un archivo CSV para garantizar que la información esté siempre actualizada.
+## 🌟 Características
 
-Características
+- ✅ **Visualización completa** de cada estación:
+  - Dirección
+  - Bicicletas disponibles
+  - Espacios libres
 
-🌍 Visualización de Disponibilidad: Muestra la dirección, las bicicletas disponibles y los espacios libres en cada estación de ValenBisi.
+- 🎨 **Colores según disponibilidad**:
+  - 🟢 Verde: Alta disponibilidad
+  - 🟡 Amarillo: Media disponibilidad
+  - 🔴 Rojo: Baja disponibilidad
 
-🎨 Colores Dinámicos: La disponibilidad se visualiza mediante colores que indican el estado de cada estación:
+- 📱 **Diseño moderno** con **Material Design 3** para una interfaz intuitiva y responsiva.
 
-✅ Verde: Alta disponibilidad de bicicletas.
+- 🧩 **Material Icons** desde [Google Fonts](https://fonts.google.com/icons) para mejorar la experiencia visual.
 
-⚠️ Amarillo: Disponibilidad media.
+- 🗺️ **Mapa interactivo** con marcadores personalizados para cada estación.
 
-❌ Rojo: Baja disponibilidad de bicicletas.
+- 🔄 **Carga dinámica del CSV** desde el portal oficial de datos abiertos del Ayuntamiento de Valencia:
+  [https://valencia.opendatasoft.com](https://valencia.opendatasoft.com/explore/dataset/valenbisi-disponibilitat-valenbisi-dsiponibilidad/table/)
 
-💡 Material Design 3: Implementación de las guías de diseño de Google, proporcionando una interfaz de usuario moderna, limpia y responsiva.
+---
 
-📱 Material Icons: Uso de iconos de Google Material para mejorar la experiencia visual e interacción.
+## 🛠️ Tecnologías Utilizadas
 
-🗺️ Mapa Interactivo: Cada estación está representada en un mapa interactivo con su ubicación geográfica exacta y su disponibilidad en tiempo real.
+- **Android Studio**: IDE principal para el desarrollo.
+- **Kotlin**: Lenguaje de programación de la app.
+- **Google Maps API**: Para la visualización geográfica de estaciones.
+- **OpenDataSoft API**: Fuente oficial de datos de ValenBisi.
+- **Material Design 3**: Framework UI moderno de Google.
+- **CSV Parsing**: Para lectura y procesamiento de los datos en tiempo real.
 
-🔄 Carga Dinámica de Datos: La información de la disponibilidad se obtiene de un archivo CSV actualizado automáticamente desde la URL del dataset de ValenBisi.
+---
 
-Tecnologías Utilizadas
+## ✅ Requisitos
 
-Android Studio: IDE principal para desarrollar la aplicación.
+- Android Studio (versión recomendada: +2022.3)
+- API Key de Google Maps
+- Conexión a internet para cargar el CSV dinámicamente
 
-Kotlin: Lenguaje de programación utilizado para la lógica y la interacción de la aplicación.
+---
 
-Google Maps API: Para integrar un mapa interactivo donde se muestran las estaciones de ValenBisi.
+## ⚙️ Instalación
 
-OpenDataSoft API: Proporciona el acceso a los datos actualizados de la disponibilidad de las estaciones en formato CSV.
+1. Clona el repositorio:
 
-Material Design 3: Framework de diseño para una interfaz de usuario atractiva y funcional.
-
-CSV Parsing: Utilizado para leer y procesar el archivo CSV que contiene los datos de disponibilidad.
+```bash
+git clone https://github.com/tuusuario/valenbisi-app.git
