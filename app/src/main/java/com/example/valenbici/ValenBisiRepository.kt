@@ -1,7 +1,5 @@
 package com.example.valenbici
 
-import com.example.valenbici.StationModel
-import com.example.valenbici.ValenBisiApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
